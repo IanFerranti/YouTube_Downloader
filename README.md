@@ -26,13 +26,7 @@ Ou pode instalar essas bibliotecas no google colab usando o !pip:
 
 ## Como Usar
 
-1. **Clone o Repositório**
-
-   ```bash
-   git clone https://github.com/IanFerranti/YouTube_Downloader.git
-   ```
-
-2. **Execute o Código**
+1. **Copie o Código abaixo ou baixe o arquivo do repositório**
 
    ```python
    from pytubefix import YouTube
@@ -83,3 +77,12 @@ Ou pode instalar essas bibliotecas no google colab usando o !pip:
     else:
         print("Formato inválido. Escolha entre mp4 e mp3.")
    ```
+
+   2. **Execute o Código**
+
+   Execute o script a partir da linha de comando:
+
+   ```bash
+   python youtube_downloader.py
+   ```
+      
