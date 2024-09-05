@@ -37,10 +37,10 @@ Ou pode instalar essas bibliotecas no google colab usando o !pip:
 
    ```python
    from pytubefix import YouTube
-from moviepy.editor import AudioFileClip
-import os
+   from moviepy.editor import AudioFileClip
+   import os
 
-def download_video(url, format_choice):
+   def download_video(url, format_choice):
     try:
         yt = YouTube(url)
         stream = None
@@ -76,7 +76,7 @@ def download_video(url, format_choice):
     except Exception as e:
         print(f"Ocorreu um erro: {str(e)}")
 
-if __name__ == "__main__":
+   if __name__ == "__main__":
     url = input("Insira a URL do vídeo: ")
     format_choice = input("Escolha o formato (mp4 ou mp3): ")
     if format_choice in ["mp4", "mp3"]:
