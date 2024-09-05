@@ -78,7 +78,7 @@ Ou pode instalar essas bibliotecas no google colab usando o !pip:
         print("Formato inválido. Escolha entre mp4 e mp3.")
    ```
 
-   2. **Execute o Código**
+2. **Execute o Código**
 
    Execute o script a partir da linha de comando:
 
