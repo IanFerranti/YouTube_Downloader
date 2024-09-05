@@ -19,7 +19,7 @@ Este projeto é uma ferramenta para baixar vídeos do YouTube e convertê-los em
 
   No Google Colab, execute as seguintes células para instalar as bibliotecas necessárias:
 
-  ```
+  ```bash
   !pip install pytubefix moviepy ipywidgets
   ```
 
@@ -27,7 +27,7 @@ Este projeto é uma ferramenta para baixar vídeos do YouTube e convertê-los em
 
   Copie e cole o seguinte código em uma célula do Google Colab e execute-a:
 
-  ```
+  ```python
   import ipywidgets as widgets
 from IPython.display import display
 from pytubefix import YouTube
